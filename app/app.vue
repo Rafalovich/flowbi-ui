@@ -1,6 +1,10 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Sidebar :menu="MenuItems" />
+    <NuxtPage />
   </div>
 </template>
+<script setup>
+const MenuItems = useMenuItems()
+</script>
+
