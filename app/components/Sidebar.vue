@@ -32,7 +32,7 @@ const props = defineProps({
 }
 nav ul {
   list-style: none;
-  padding: 0;
+  
 }
 nav li {
   margin: 1rem 0;

@@ -1,6 +1,8 @@
 <template>
     <div class="layout rtl">
+        <navbar/>
         <sidbar/>
+        
         <div class="content">
            <NuxtPage />
         </div>
@@ -8,7 +10,9 @@
 </template>
 
 <script setup>
-import Sidbar from '~/components/sidebar.vue'
+import Navbar from '../components/Navbar.vue';
+import Sidbar from '../components/Sidebar.vue'
+
 </script>
 
 <style scoped>
